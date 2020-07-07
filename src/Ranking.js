@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Ranking = (props) => {
+export const Ranking = (props) => {
   if (props.yourChoice > props.AIChoice) {
     props.wins.push(1);
     return (
